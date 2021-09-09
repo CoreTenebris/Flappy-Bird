@@ -1,0 +1,115 @@
+body{
+    display:flex;
+    overflow: hidden;
+}
+
+
+.container{
+
+    width:500px;
+    height:730px;
+    position:absolute;
+    left:80px;
+
+}
+
+.leftBorder{
+    width:80px;
+    height:790px;
+    position:absolute;
+    background-color: white;
+    z-index: +2;
+}
+.rightBorder{
+
+    width:80px;
+    height:790px;
+    position:absolute;
+    background-color: white;
+    z-index: +2;
+    left: 580px;
+
+}
+
+.topBorder{
+    width:660px;
+    height:50px;
+    background-color: white;
+    z-index:+2;
+    position: absolute;
+    top:-50px;
+}
+
+
+.sky{
+    background-image: url("../images/sky.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    /* background-image:lightblue; */
+    width:500px;
+    height:580px;
+    position:absolute;
+    /* z-index: +1; */
+
+
+
+}
+
+.ground{
+    background-image: url("../images/ground.jpg");
+    /* background-image:brown; */
+
+    background-size:contain;
+    width:500px;
+    height:150px;
+    position: absolute;
+    top:580px;
+    z-index: +1;
+
+}
+
+.bird{
+    height: 47px;
+    width:43px;
+    position:absolute;
+    /* left:50px; */
+    background-image:url('../images/bird.png');
+    background-size: 100% 100%;
+}
+
+.bird2{
+    height:47px;
+    width:43px;
+    position:absolute;
+    /* left:50px; */
+    background-image:url('../images/gameover-bird.png');
+    background-size: 100% 100%;
+    z-index: 10;
+   
+}
+
+
+
+.block{
+    background-image:url('../images/pipe.png');
+    width: 60px;
+    height:300px;
+    position:absolute;
+    
+
+    
+
+}
+
+.topBlock{
+    background-image:url('../images/pipe.png');
+    transform:rotate(180deg);
+    width: 60px;
+    height:300px;
+    position:absolute;
+    
+
+    
+
+}
