@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded',()=>{
    const moveObject = document.querySelector('.bird')
    const mainArea = document.querySelector('.container')
+   const lastMessage=document.querySelector('.gameover')
 //    const platform=document.querySelector('.ground')
 
 
@@ -83,11 +84,8 @@ document.addEventListener('DOMContentLoaded',()=>{
    function gameOver(){
         
         moveObject.classList.add('bird2')
+        lastMessage.style.display='block';
         document.getElementById('tune').play();
-        // var audio = new Audio('../tune.mp3');
-        // audio.play();
-        // // audio.play();
-
         clearInterval(gametimerId)
     
        isGameOver=true
