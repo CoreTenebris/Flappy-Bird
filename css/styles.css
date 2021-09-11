@@ -69,6 +69,19 @@ body{
 
 }
 
+.gameover{
+    background-image: url('../images/gameover.png');
+    background-size: contain;
+    width: 250px;
+    height: 250px;
+    z-index:20;
+    position:absolute;
+    top:210px;
+    left:125px;
+    display: none;
+
+}
+
 .bird{
     height: 47px;
     width:43px;
